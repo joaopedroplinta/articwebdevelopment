@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contato</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-muFP0zWfbdWzj3rQ6wCnIH2piv5uXfRSpG2C6uR9qXlW0IeheqJWmEpmSgGqvrjF0Pl5QO+pfnUcluTNvgF2Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+          <h1 class="logo">ArticWeb Development</h1>
+        </div>
+        <nav class="menu">
+          <div class="container">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="sobre.html">Sobre a ArticWeb</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+  <main>
+    <section class="contato">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    
+    <section class="informacoes-contato">
+      <div class="container">
+        <h3>Informações de Contato</h3>
+        <p>Entre em contato conosco por meio das seguintes informações:</p>
+        <div class="contato-item">
+          <i class="fab fa-whatsapp"></i>
+          <a href="https://api.whatsapp.com/send?phone=seunumerodewhatsapp" target="_blank">WhatsApp: Seu número de WhatsApp</a>
+        </div>
+        <div class="contato-item">
+          <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/seuinstagram" target="_blank">Instagram: Seu Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 ArticWeb. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
