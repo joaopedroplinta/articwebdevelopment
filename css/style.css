@@ -65,7 +65,7 @@ nav {
 }
 
 .menu a:hover {
-  color: #3e5773;
+  color: #7bb098;
 }
 
 main {
@@ -77,7 +77,7 @@ section {
 }
 
 .banner {
-  background-color: #3e5773;
+  background-color: #7bb098;
   color: #fff;
   padding: 40px;
   text-align: center;
@@ -95,7 +95,7 @@ section {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #3e5773;
+  background-color: #7bb098;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
@@ -157,7 +157,7 @@ section {
 
 .contact button {
   padding: 10px 20px;
-  background-color: #3e5773;
+  background-color: #7bb098;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -243,7 +243,7 @@ footer {
 .btn-orcamento {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #3e5773;
+  background-color: #7bb098;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
