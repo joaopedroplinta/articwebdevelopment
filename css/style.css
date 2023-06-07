@@ -255,3 +255,24 @@ footer {
 .btn-budget:hover {
   background-color: #29506b;
 }
+
+/* Estilos para dispositivos móveis com largura de tela de até 600px */
+@media only screen and (max-width: 600px) {
+  .logo img {
+    margin-left: 0; /* Remove a margem à esquerda */
+  }
+
+  .menu ul li {
+    margin: 5px; /* Adiciona uma margem menor entre os itens do menu */
+  }
+
+  .contact-information {
+    flex-direction: column; /* Alinha verticalmente os ícones e o texto */
+    margin-top: 10px; /* Adiciona um espaço entre os ícones e o texto */
+  }
+
+  .contact-information i,
+  .contact-information a {
+    font-size: 24px; /* Reduz o tamanho dos ícones */
+  }
+}
