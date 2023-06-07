@@ -136,11 +136,11 @@ section {
   margin-bottom: 20px;
 }
 
-.projeto {
+.project {
   margin-bottom: 20px;
 }
 
-.projeto img {
+.project img {
   width: 300px;
   height: 200px;
   object-fit: cover;
@@ -176,76 +176,74 @@ footer {
   text-align: center;
 }
 
-.informacoes-contato {
+.contact-information {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.contato-item {
+.contact-information {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
-.contato-item i {
+.contact-information i {
   margin-right: 10px;
 }
 
-.contato-item a {
-  color: #333;
+.contact-information a {
+  color: #7bb098;
   text-decoration: none;
 }
 
-.contato-item a:hover {
+.contact-information i,
+.contact-information a {
+  font-size: 30px;
+}
+
+.contact-information a:hover {
   color: #000;
 }
 
-.whatsapp-icon {
-  color: #25d366;
-}
-
-.instagram-icon {
-  color: #c13584;
-}
-
-.orcamento {
+.budget {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.opcoes-orcamento {
+.options-budget {
   display: flex;
   justify-content: center;
 }
 
-.opcao {
+.option {
   margin: 10px;
   padding: 20px;
   background-color: #f0f0f0;
   border-radius: 4px;
 }
 
-.opcao h3 {
+.option h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.opcao p {
+.option p {
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.opcao ul {
+.option ul {
   list-style: none;
   margin-bottom: 10px;
 }
 
-.opcao ul li {
+.option ul li {
   margin-bottom: 5px;
 }
 
-.btn-orcamento {
+.btn-budget {
   display: inline-block;
   padding: 10px 20px;
   background-color: #7bb098;
@@ -254,6 +252,6 @@ footer {
   border-radius: 4px;
 }
 
-.btn-orcamento:hover {
+.btn-budget:hover {
   background-color: #29506b;
 }
